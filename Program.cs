@@ -11,6 +11,12 @@ class Program
         int num = Int32.Parse(numStr);  //cast from string to int
 
 
+        // create TransactionList obj here
+        // call init
+        TransactionList trans = new TransactionList();
+        trans.Init(num);
+
+
         for (int i = 0; i < num; i++)
         {
             // creating an object (variable of a certain class type)

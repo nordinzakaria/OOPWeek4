@@ -4,14 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class TransactionLIst
+public class TransactionList
     {
     // data 
     private Transaction[] transactions; // transactions is an Array object
+    private int numTransactions;
 
     // operations
     public void Init(int num) { transactions = new Transaction[num]; }
 
+    public void Add()
+    {
 
+    }
 
     }
