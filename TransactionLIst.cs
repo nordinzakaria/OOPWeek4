@@ -13,9 +13,10 @@ public class TransactionList
     // operations
     public void Init(int num) { transactions = new Transaction[num]; }
 
-    public void Add()
-    {
-
-    }
+    // how to complete this?????
+    public void Add(Transaction transaction) 
+        {
+            transactions[numTransactions] = transaction;
+        }
 
     }

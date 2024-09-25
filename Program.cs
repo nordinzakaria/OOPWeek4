@@ -32,8 +32,13 @@ class Program
             transaction.setDate(new DateTime(2008, 6, 1));
             transaction.setVal(10.5f);
 
+            trans.Add(transaction);  // add transaction to the list
+
             Console.WriteLine("transaction value is " + transaction.val + " at time " + transaction.date.ToString());
         }
+
+
+        trans.Display();  // print the list of transactions
     }
 
 }
