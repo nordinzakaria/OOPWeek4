@@ -13,8 +13,8 @@ class Program
 
         // create TransactionList obj here
         // call init
-        TransactionList trans = new TransactionList();
-        trans.Init(num);
+        TransactionArray trans = new TransactionArray(num);
+        //trans.Init(num);
 
 
         for (int i = 0; i < num; i++)
