@@ -33,8 +33,6 @@ class Program
             transaction.setVal(10.5f);
 
             trans.Add(transaction);  // add transaction to the list
-
-            Console.WriteLine("transaction value is " + transaction.val + " at time " + transaction.date.ToString());
         }
 
 

@@ -19,4 +19,12 @@ public class TransactionList
             transactions[numTransactions] = transaction;
         }
 
+    public void Display()
+    {
+        for (int i = 0; i < numTransactions; i++)
+        {
+            Console.WriteLine(transactions[i].ToString());
+        }
+    }
+
     }
